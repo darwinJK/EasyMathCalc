@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="50dp"
+       android:layout_gravity="center">
+
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="EASY_MATH_CALC"
+       android:textColor="@color/green"
+       android:background="@color/black"
+       android:textSize="30dp"
+       />
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom"
+       android:background="@color/black"
+       android:orientation="vertical"
+       android:padding="40dp">
+
+
+      <Button
+          android:id="@+id/factorial"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/dark_blue"
+          android:padding="15dp"
+          android:text="Factorial"
+          android:textColor="@color/white"
+          android:textSize="20dp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dp">
+
+      </LinearLayout>
+
+
+      <Button
+          android:id="@+id/prime_number"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/dark_blue"
+          android:padding="15dp"
+          android:text="prime number"
+          android:textColor="@color/white"
+          android:textSize="20dp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dp">
+
+      </LinearLayout>
+
+      <Button
+          android:id="@+id/factors"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/dark_blue"
+          android:padding="15dp"
+          android:text="Factors"
+          android:textColor="@color/white"
+          android:textSize="20dp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="20dp">
+
+      </LinearLayout>
+
+
+      <Button
+          android:id="@+id/shift_char"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/dark_blue"
+          android:padding="15dp"
+          android:text="Shift char"
+          android:textColor="@color/white"
+          android:textSize="20dp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:padding="30dp"></LinearLayout>
+
+
+   </LinearLayout>
+
+
+
+</LinearLayout>
